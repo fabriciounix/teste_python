@@ -26,7 +26,7 @@ except:
 SHODAN_API_KEY = "UZTIL9ochgBZCLGE75xr2EJWxJMeE1wf"
 api = shodan.Shodan(SHODAN_API_KEY)
 
-target = raw_input("https://fabriciounix.com.br")
+target = raw_input("https://www.facebook.com")
 
 dnsResolve = 'https://api.shodan.io/dns/resolve?hostnames=' + target + '&key=' + SHODAN_API_KEY
 
